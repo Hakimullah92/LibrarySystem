@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.profile-img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.profile-img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.search-input{
+    width: 40rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.searchbox{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    right:2px;
+    top: 3px;
+}
+
+
+
+
+/* ================ Media Queries================== */
+@media screen and (max-width:991px) {
+    .search-input{
+        width: 30rem;
+    }
+}
+@media screen and (max-width:850px) {
+    .search-input{
+        width: 20rem;
+    }
+}
+@media screen and (max-width:768px) {
+   .search-input{
+    display: none;
+   }
+   .searchbox{
+    display: none;
+   }
+
+}
+
